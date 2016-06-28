@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'gbox-video-player_Example' do
+  pod 'gbox-video-player', :path => '../'
+
+  target 'gbox-video-player_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
