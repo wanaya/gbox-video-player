@@ -1,0 +1,22 @@
+{
+  "name": "gbox-video-player",
+  "version": "0.1.0",
+  "summary": "A short description of gbox-video-player.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/<GITHUB_USERNAME>/gbox-video-player",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "guillermoncircle": "guillermo@oncircle.com"
+  },
+  "source": {
+    "git": "https://github.com/<GITHUB_USERNAME>/gbox-video-player.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "gbox-video-player/Classes/**/*"
+}

@@ -1,0 +1,687 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0CFB9AC43B81BA85BD8C7AF945EEA9EC /* Pods-gbox-video-player_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B0799AFC10ADA98E17EAA2FD13E17CD1 /* Pods-gbox-video-player_Tests-dummy.m */; };
+		3B19C02A5537A994DA2B7C25072ACF9C /* Pods-gbox-video-player_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = CB28604F2881E459413D3A87E387F0B7 /* Pods-gbox-video-player_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		473B73EDEDAA0F4E546F9E579A2376F2 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */; };
+		5586140EE153EC402D37D0AB7601C031 /* gbox-video-player-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B5127A8DF0BA6C1F9AF504F2C6705C0 /* gbox-video-player-dummy.m */; };
+		678038C84AE4FA4E654296E74788B76D /* gbox-video-player-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = E6A113F26713B219B614906D7C70DFFE /* gbox-video-player-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6810B8C306682CDD7D8234E8839B2806 /* Pods-gbox-video-player_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 1306136FB9A769923E0CC0EF154AC885 /* Pods-gbox-video-player_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		97A79A364ED0081AE2DB1CE0F886031D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */; };
+		D76FA98E52297EF5EBFF5FF9F80ED7F4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */; };
+		EF3AC71971D919B0099CDA7BBB314C08 /* Pods-gbox-video-player_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D6448FF5FFBF933B02580732058FCCB /* Pods-gbox-video-player_Example-dummy.m */; };
+		FAC0A45B5FC506E7E191A8580E931603 /* ReplaceMe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 867F811D7F78B7E2B37619C32031104E /* ReplaceMe.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D4BFFDE594846ED3C48C31194872A680 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 10713EBD1A234C192F53697AC3F88CE5;
+			remoteInfo = "gbox-video-player";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0B5127A8DF0BA6C1F9AF504F2C6705C0 /* gbox-video-player-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "gbox-video-player-dummy.m"; sourceTree = "<group>"; };
+		0C5CDD8A6D86DCE94EBBA2135402F434 /* Pods-gbox-video-player_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-gbox-video-player_Tests-frameworks.sh"; sourceTree = "<group>"; };
+		1306136FB9A769923E0CC0EF154AC885 /* Pods-gbox-video-player_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-gbox-video-player_Example-umbrella.h"; sourceTree = "<group>"; };
+		27A7CABC6913D55378F37B1B5F02D8A8 /* Pods-gbox-video-player_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-gbox-video-player_Example-frameworks.sh"; sourceTree = "<group>"; };
+		2C800055F86E0C2F0A245C54788B0364 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3473CF69E70FC01463159730C20B3D0E /* Pods-gbox-video-player_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-gbox-video-player_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		4434B1084387D89E15F9888D9C82A72C /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4597FA577FAEC612E0A4249CF3A7CBFF /* Pods-gbox-video-player_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-gbox-video-player_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		4601D39A6CF43D821C6819B0D80DEDB0 /* Pods_gbox_video_player_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_gbox_video_player_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		54210C0CBBBBB03D92D6E9B9FF89F472 /* Pods-gbox-video-player_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-gbox-video-player_Example.release.xcconfig"; sourceTree = "<group>"; };
+		6A0E96C8AC9C65EB2F2B3E2A403859C1 /* gbox-video-player.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "gbox-video-player.xcconfig"; sourceTree = "<group>"; };
+		6E1E6E3749FCA063A61C11177A8FB239 /* Pods-gbox-video-player_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-gbox-video-player_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		73E51C7F92BE5061D0375E1AF3EE5846 /* Pods-gbox-video-player_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-gbox-video-player_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		74D3C2660F2ADC0F8425188E896A15A6 /* Pods-gbox-video-player_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-gbox-video-player_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		776227AE2803E44BC72B7D32347FB66C /* Pods-gbox-video-player_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-gbox-video-player_Example.modulemap"; sourceTree = "<group>"; };
+		7D6448FF5FFBF933B02580732058FCCB /* Pods-gbox-video-player_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-gbox-video-player_Example-dummy.m"; sourceTree = "<group>"; };
+		867F811D7F78B7E2B37619C32031104E /* ReplaceMe.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ReplaceMe.swift; sourceTree = "<group>"; };
+		8CB9E5E680C1F62B305FA7FDDF59C0C6 /* gbox-video-player.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "gbox-video-player.modulemap"; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9AEEE00DC7A7F0807BABD4FE996B73B7 /* gbox-video-player-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "gbox-video-player-prefix.pch"; sourceTree = "<group>"; };
+		9F1BF5ADA38E2586AE812CBA486BB62A /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A354A8D56CDB8FCD8344C8EA0D4B72AB /* Pods-gbox-video-player_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-gbox-video-player_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		A3CE7EA0F29E669D2D8566789E5064EC /* Pods-gbox-video-player_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-gbox-video-player_Tests.modulemap"; sourceTree = "<group>"; };
+		A9047A37B826E9DDAE4A566A7E395219 /* Pods-gbox-video-player_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-gbox-video-player_Tests-resources.sh"; sourceTree = "<group>"; };
+		A95D9531F590192518176D9553347640 /* Pods-gbox-video-player_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-gbox-video-player_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		B0799AFC10ADA98E17EAA2FD13E17CD1 /* Pods-gbox-video-player_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-gbox-video-player_Tests-dummy.m"; sourceTree = "<group>"; };
+		CB28604F2881E459413D3A87E387F0B7 /* Pods-gbox-video-player_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-gbox-video-player_Tests-umbrella.h"; sourceTree = "<group>"; };
+		CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		DEC0465909295B568B001CB98040D315 /* Pods_gbox_video_player_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_gbox_video_player_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E2C5E2280E54106F4761DB03102D2E3E /* Pods-gbox-video-player_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-gbox-video-player_Example-resources.sh"; sourceTree = "<group>"; };
+		E6A113F26713B219B614906D7C70DFFE /* gbox-video-player-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "gbox-video-player-umbrella.h"; sourceTree = "<group>"; };
+		F39814B2EFB5A0AC9E47DFEBBF861CB5 /* gbox_video_player.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = gbox_video_player.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		34C1B1996D66DDDA949D8C988A12B0A3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				97A79A364ED0081AE2DB1CE0F886031D /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AEADFF06532C796B6A1AE1FDAB944ECE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D76FA98E52297EF5EBFF5FF9F80ED7F4 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D2CA497AD61605E3B4D9F9C2AF767A0F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				473B73EDEDAA0F4E546F9E579A2376F2 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1807DA4D19C47A1F094862903F80C57C /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				8CB9E5E680C1F62B305FA7FDDF59C0C6 /* gbox-video-player.modulemap */,
+				6A0E96C8AC9C65EB2F2B3E2A403859C1 /* gbox-video-player.xcconfig */,
+				0B5127A8DF0BA6C1F9AF504F2C6705C0 /* gbox-video-player-dummy.m */,
+				9AEEE00DC7A7F0807BABD4FE996B73B7 /* gbox-video-player-prefix.pch */,
+				E6A113F26713B219B614906D7C70DFFE /* gbox-video-player-umbrella.h */,
+				4434B1084387D89E15F9888D9C82A72C /* Info.plist */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/gbox-video-player";
+			sourceTree = "<group>";
+		};
+		3DCAB2B7CDE207B3958B6CB957FCC758 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		4A76E8015BED88FC64866485B72BAC19 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				E9B57AE02A214473CCBC1F774066203F /* Pods-gbox-video-player_Example */,
+				60E7D12ACD4B267147955CDA6627F4D7 /* Pods-gbox-video-player_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		60E7D12ACD4B267147955CDA6627F4D7 /* Pods-gbox-video-player_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				2C800055F86E0C2F0A245C54788B0364 /* Info.plist */,
+				A3CE7EA0F29E669D2D8566789E5064EC /* Pods-gbox-video-player_Tests.modulemap */,
+				73E51C7F92BE5061D0375E1AF3EE5846 /* Pods-gbox-video-player_Tests-acknowledgements.markdown */,
+				74D3C2660F2ADC0F8425188E896A15A6 /* Pods-gbox-video-player_Tests-acknowledgements.plist */,
+				B0799AFC10ADA98E17EAA2FD13E17CD1 /* Pods-gbox-video-player_Tests-dummy.m */,
+				0C5CDD8A6D86DCE94EBBA2135402F434 /* Pods-gbox-video-player_Tests-frameworks.sh */,
+				A9047A37B826E9DDAE4A566A7E395219 /* Pods-gbox-video-player_Tests-resources.sh */,
+				CB28604F2881E459413D3A87E387F0B7 /* Pods-gbox-video-player_Tests-umbrella.h */,
+				A95D9531F590192518176D9553347640 /* Pods-gbox-video-player_Tests.debug.xcconfig */,
+				3473CF69E70FC01463159730C20B3D0E /* Pods-gbox-video-player_Tests.release.xcconfig */,
+			);
+			name = "Pods-gbox-video-player_Tests";
+			path = "Target Support Files/Pods-gbox-video-player_Tests";
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				905BC46C863031825EA3A642C3BE36AD /* Development Pods */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				D703D9155294926018CD33B4382C3F59 /* Products */,
+				4A76E8015BED88FC64866485B72BAC19 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		7F139107BBC5815C83F64C760C595580 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				867F811D7F78B7E2B37619C32031104E /* ReplaceMe.swift */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		905BC46C863031825EA3A642C3BE36AD /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				B3C6983A253AB0E7A153B4D1CA3C7745 /* gbox-video-player */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		B3C6983A253AB0E7A153B4D1CA3C7745 /* gbox-video-player */ = {
+			isa = PBXGroup;
+			children = (
+				B530D9E55A45BB3DB8411C4E7D4EB1CB /* gbox-video-player */,
+				1807DA4D19C47A1F094862903F80C57C /* Support Files */,
+			);
+			name = "gbox-video-player";
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		B530D9E55A45BB3DB8411C4E7D4EB1CB /* gbox-video-player */ = {
+			isa = PBXGroup;
+			children = (
+				7F139107BBC5815C83F64C760C595580 /* Classes */,
+			);
+			path = "gbox-video-player";
+			sourceTree = "<group>";
+		};
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3DCAB2B7CDE207B3958B6CB957FCC758 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D703D9155294926018CD33B4382C3F59 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F39814B2EFB5A0AC9E47DFEBBF861CB5 /* gbox_video_player.framework */,
+				DEC0465909295B568B001CB98040D315 /* Pods_gbox_video_player_Example.framework */,
+				4601D39A6CF43D821C6819B0D80DEDB0 /* Pods_gbox_video_player_Tests.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E9B57AE02A214473CCBC1F774066203F /* Pods-gbox-video-player_Example */ = {
+			isa = PBXGroup;
+			children = (
+				9F1BF5ADA38E2586AE812CBA486BB62A /* Info.plist */,
+				776227AE2803E44BC72B7D32347FB66C /* Pods-gbox-video-player_Example.modulemap */,
+				6E1E6E3749FCA063A61C11177A8FB239 /* Pods-gbox-video-player_Example-acknowledgements.markdown */,
+				A354A8D56CDB8FCD8344C8EA0D4B72AB /* Pods-gbox-video-player_Example-acknowledgements.plist */,
+				7D6448FF5FFBF933B02580732058FCCB /* Pods-gbox-video-player_Example-dummy.m */,
+				27A7CABC6913D55378F37B1B5F02D8A8 /* Pods-gbox-video-player_Example-frameworks.sh */,
+				E2C5E2280E54106F4761DB03102D2E3E /* Pods-gbox-video-player_Example-resources.sh */,
+				1306136FB9A769923E0CC0EF154AC885 /* Pods-gbox-video-player_Example-umbrella.h */,
+				4597FA577FAEC612E0A4249CF3A7CBFF /* Pods-gbox-video-player_Example.debug.xcconfig */,
+				54210C0CBBBBB03D92D6E9B9FF89F472 /* Pods-gbox-video-player_Example.release.xcconfig */,
+			);
+			name = "Pods-gbox-video-player_Example";
+			path = "Target Support Files/Pods-gbox-video-player_Example";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		1CE9B46336FEF7F8FEE3B87B0C879B2A /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3B19C02A5537A994DA2B7C25072ACF9C /* Pods-gbox-video-player_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		28B30CC3EB2D82A59965877A8C612162 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6810B8C306682CDD7D8234E8839B2806 /* Pods-gbox-video-player_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9C845FA4A692AA286C3F5BCFAD3B33F9 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				678038C84AE4FA4E654296E74788B76D /* gbox-video-player-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		10713EBD1A234C192F53697AC3F88CE5 /* gbox-video-player */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 877A1495ECB9B8E1457F54D87CC73BBE /* Build configuration list for PBXNativeTarget "gbox-video-player" */;
+			buildPhases = (
+				24921E6F52D56BBDDAD37013A1376B1A /* Sources */,
+				AEADFF06532C796B6A1AE1FDAB944ECE /* Frameworks */,
+				9C845FA4A692AA286C3F5BCFAD3B33F9 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "gbox-video-player";
+			productName = "gbox-video-player";
+			productReference = F39814B2EFB5A0AC9E47DFEBBF861CB5 /* gbox_video_player.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		13F7ECE401C3C52FF959A14573C11661 /* Pods-gbox-video-player_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A9482E8D89D8F719674AA7257691C6C3 /* Build configuration list for PBXNativeTarget "Pods-gbox-video-player_Example" */;
+			buildPhases = (
+				F406F89E77C719E6282A19236CFD10B3 /* Sources */,
+				D2CA497AD61605E3B4D9F9C2AF767A0F /* Frameworks */,
+				28B30CC3EB2D82A59965877A8C612162 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				32DCA8B14EC50B1F8270B5E3FC5FAC48 /* PBXTargetDependency */,
+			);
+			name = "Pods-gbox-video-player_Example";
+			productName = "Pods-gbox-video-player_Example";
+			productReference = DEC0465909295B568B001CB98040D315 /* Pods_gbox_video_player_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		54452C774639232E445191C9B50516BB /* Pods-gbox-video-player_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 864CBB3A369FE3E3612A879551804ABA /* Build configuration list for PBXNativeTarget "Pods-gbox-video-player_Tests" */;
+			buildPhases = (
+				9448646EF13D6450C3DE8D179D8B1CA9 /* Sources */,
+				34C1B1996D66DDDA949D8C988A12B0A3 /* Frameworks */,
+				1CE9B46336FEF7F8FEE3B87B0C879B2A /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-gbox-video-player_Tests";
+			productName = "Pods-gbox-video-player_Tests";
+			productReference = 4601D39A6CF43D821C6819B0D80DEDB0 /* Pods_gbox_video_player_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = D703D9155294926018CD33B4382C3F59 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				10713EBD1A234C192F53697AC3F88CE5 /* gbox-video-player */,
+				13F7ECE401C3C52FF959A14573C11661 /* Pods-gbox-video-player_Example */,
+				54452C774639232E445191C9B50516BB /* Pods-gbox-video-player_Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		24921E6F52D56BBDDAD37013A1376B1A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5586140EE153EC402D37D0AB7601C031 /* gbox-video-player-dummy.m in Sources */,
+				FAC0A45B5FC506E7E191A8580E931603 /* ReplaceMe.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9448646EF13D6450C3DE8D179D8B1CA9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0CFB9AC43B81BA85BD8C7AF945EEA9EC /* Pods-gbox-video-player_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F406F89E77C719E6282A19236CFD10B3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EF3AC71971D919B0099CDA7BBB314C08 /* Pods-gbox-video-player_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		32DCA8B14EC50B1F8270B5E3FC5FAC48 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "gbox-video-player";
+			target = 10713EBD1A234C192F53697AC3F88CE5 /* gbox-video-player */;
+			targetProxy = D4BFFDE594846ED3C48C31194872A680 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		0ACDCBCB0B6796575F46FFA2F5410C6B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		12831267FE777EEC1FE7823562BC87E0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3473CF69E70FC01463159730C20B3D0E /* Pods-gbox-video-player_Tests.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-gbox-video-player_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-gbox-video-player_Tests/Pods-gbox-video-player_Tests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_gbox_video_player_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		1A67958BE2C07404B71F2C0560B977C9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 54210C0CBBBBB03D92D6E9B9FF89F472 /* Pods-gbox-video-player_Example.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-gbox-video-player_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-gbox-video-player_Example/Pods-gbox-video-player_Example.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_gbox_video_player_Example;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		2B4ABE725C97C8D93DCC149B893F4C4E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6A0E96C8AC9C65EB2F2B3E2A403859C1 /* gbox-video-player.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/gbox-video-player/gbox-video-player-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/gbox-video-player/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/gbox-video-player/gbox-video-player.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = gbox_video_player;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		30FF5FC53B4DC60C30F53EE73A421A01 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A95D9531F590192518176D9553347640 /* Pods-gbox-video-player_Tests.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-gbox-video-player_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-gbox-video-player_Tests/Pods-gbox-video-player_Tests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_gbox_video_player_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		824D80B7ADACD806583B8BE525812D15 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4597FA577FAEC612E0A4249CF3A7CBFF /* Pods-gbox-video-player_Example.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-gbox-video-player_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-gbox-video-player_Example/Pods-gbox-video-player_Example.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_gbox_video_player_Example;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		D2D72585DBB92F31688B58042598B6DB /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6A0E96C8AC9C65EB2F2B3E2A403859C1 /* gbox-video-player.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/gbox-video-player/gbox-video-player-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/gbox-video-player/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/gbox-video-player/gbox-video-player.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = gbox_video_player;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		D3E3D092A3FF7311A98E44BBA36FFD12 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				ONLY_ACTIVE_ARCH = YES;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D3E3D092A3FF7311A98E44BBA36FFD12 /* Debug */,
+				0ACDCBCB0B6796575F46FFA2F5410C6B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		864CBB3A369FE3E3612A879551804ABA /* Build configuration list for PBXNativeTarget "Pods-gbox-video-player_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				30FF5FC53B4DC60C30F53EE73A421A01 /* Debug */,
+				12831267FE777EEC1FE7823562BC87E0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		877A1495ECB9B8E1457F54D87CC73BBE /* Build configuration list for PBXNativeTarget "gbox-video-player" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2B4ABE725C97C8D93DCC149B893F4C4E /* Debug */,
+				D2D72585DBB92F31688B58042598B6DB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A9482E8D89D8F719674AA7257691C6C3 /* Build configuration list for PBXNativeTarget "Pods-gbox-video-player_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				824D80B7ADACD806583B8BE525812D15 /* Debug */,
+				1A67958BE2C07404B71F2C0560B977C9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}

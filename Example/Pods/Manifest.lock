@@ -1,0 +1,16 @@
+PODS:
+  - gbox-video-player (0.1.0)
+
+DEPENDENCIES:
+  - gbox-video-player (from `../`)
+
+EXTERNAL SOURCES:
+  gbox-video-player:
+    :path: ../
+
+SPEC CHECKSUMS:
+  gbox-video-player: 2b384d9841fe01e4343b283690cfaf61be939465
+
+PODFILE CHECKSUM: 4dcd423cd8fff9c7ff31f80155a8086afbcadd31
+
+COCOAPODS: 1.0.1

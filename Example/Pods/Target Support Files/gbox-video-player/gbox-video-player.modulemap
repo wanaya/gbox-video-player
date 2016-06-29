@@ -1,0 +1,6 @@
+framework module gbox_video_player {
+  umbrella header "gbox-video-player-umbrella.h"
+
+  export *
+  module * { export * }
+}
