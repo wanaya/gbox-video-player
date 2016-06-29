@@ -1,6 +1,5 @@
 import UIKit
 import XCTest
-import gbox-video-player
 
 class Tests: XCTestCase {
     

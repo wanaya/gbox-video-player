@@ -26,13 +26,13 @@ Pod::Spec.new do |s|
   s.source           = { :git => 'https://github.com/wanaya/gbox-video-player.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/wanaya'
 
-  s.ios.deployment_target = '8.0'
+  s.ios.deployment_target = '9.0'
 
   s.source_files = 'gbox-video-player/Classes/**/*'
   
-  # s.resource_bundles = {
-  #   'gbox-video-player' => ['gbox-video-player/Assets/*.png']
-  # }
+  s.resource_bundles = {
+    'gbox-video-player' => ['gbox-video-player/Assets/*.{xib,png}']
+  }
 
   # s.public_header_files = 'Pod/Classes/**/*.h'
   # s.frameworks = 'UIKit', 'MapKit'

@@ -1,9 +1,9 @@
 {
   "name": "gbox-video-player",
   "version": "0.1.0",
-  "summary": "A short description of gbox-video-player.",
-  "description": "TODO: Add long description of the pod here.",
-  "homepage": "https://github.com/<GITHUB_USERNAME>/gbox-video-player",
+  "summary": "A video player createdin swift",
+  "description": "a simple video player that accept video and mp3",
+  "homepage": "https://github.com/wanaya/gbox-video-player",
   "license": {
     "type": "MIT",
     "file": "LICENSE"
@@ -12,11 +12,16 @@
     "guillermoncircle": "guillermo@oncircle.com"
   },
   "source": {
-    "git": "https://github.com/<GITHUB_USERNAME>/gbox-video-player.git",
+    "git": "https://github.com/wanaya/gbox-video-player.git",
     "tag": "0.1.0"
   },
   "platforms": {
-    "ios": "8.0"
+    "ios": "9.0"
   },
-  "source_files": "gbox-video-player/Classes/**/*"
+  "source_files": "gbox-video-player/Classes/**/*",
+  "resource_bundles": {
+    "gbox-video-player": [
+      "gbox-video-player/Assets/*.{xib,png}"
+    ]
+  }
 }

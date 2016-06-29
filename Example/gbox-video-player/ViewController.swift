@@ -7,18 +7,61 @@
 //
 
 import UIKit
+import gbox_video_player
 
 class ViewController: UIViewController {
 
-    override func viewDidLoad() {
-        super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
+  @IBOutlet weak var heightCons: NSLayoutConstraint!
+  @IBOutlet weak var videoPlayer: GboxVideoPlayerView!
+  let deafultHeight: CGFloat = 212
+  
+  override func viewDidLoad() {
+    super.viewDidLoad()
+    
+    
+    let track = GboxTrack(url: NSURL(string: "https://clips.vorwaerts-gmbh.de/big_buck_bunny.mp4")!, title: "Bunny")
+    videoPlayer?.track = track
+    videoPlayer?.playFromBeginning()
+    
+    videoPlayer?.fullscreenButton.addTarget(self, action: #selector(ViewController.tapFullScreen), forControlEvents: .TouchUpInside)
+  }
+  
+  func tapFullScreen() {
+    fullScreen = !fullScreen
+  }
+  
+  var fullScreen: Bool! {
+    get {
+      return UIDeviceOrientationIsLandscape(UIDevice.currentDevice().orientation)
     }
-
-    override func didReceiveMemoryWarning() {
-        super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
+    
+    set {
+      if let value = newValue where value {
+        UIDevice.currentDevice().setValue(UIInterfaceOrientation.LandscapeRight.rawValue, forKey: "orientation")
+      } else {
+        UIDevice.currentDevice().setValue(UIInterfaceOrientation.Portrait.rawValue, forKey: "orientation")
+      }
     }
-
+  }
+  
+  override func willRotateToInterfaceOrientation(toInterfaceOrientation: UIInterfaceOrientation, duration: NSTimeInterval) {
+    let isLandscape = UIInterfaceOrientationIsLandscape(toInterfaceOrientation)
+    self.navigationController?.setNavigationBarHidden(isLandscape, animated: true)
+    videoPlayer.backButton.hidden = isLandscape
+    videoPlayer.bufferBackButton.hidden = isLandscape
+    self.prefersStatusBarHidden()
+    let bounds = UIScreen.mainScreen().bounds
+    
+    if UIInterfaceOrientationIsLandscape(toInterfaceOrientation) {
+      self.heightCons.constant = min(bounds.size.width, bounds.size.height)
+    } else {
+      self.heightCons.constant = deafultHeight
+      self.navigationController?.navigationBarHidden = true
+    }
+    
+    UIView.animateWithDuration(0.5, delay: 0.0, options: [], animations: { () -> Void in
+      self.view.layoutIfNeeded()
+      }, completion: nil)
+  }
 }
 
