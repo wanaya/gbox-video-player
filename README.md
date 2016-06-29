@@ -1,6 +1,6 @@
 # gbox-video-player
 
-[![CI Status](http://img.shields.io/travis/guillermoncircle/gbox-video-player.svg?style=flat)](https://travis-ci.org/guillermoncircle/gbox-video-player)
+
 [![Version](https://img.shields.io/cocoapods/v/gbox-video-player.svg?style=flat)](http://cocoapods.org/pods/gbox-video-player)
 [![License](https://img.shields.io/cocoapods/l/gbox-video-player.svg?style=flat)](http://cocoapods.org/pods/gbox-video-player)
 [![Platform](https://img.shields.io/cocoapods/p/gbox-video-player.svg?style=flat)](http://cocoapods.org/pods/gbox-video-player)
