@@ -22,7 +22,7 @@ pod "gbox-video-player"
 
 ## Author
 
-guillermoncircle, guillermo@oncircle.com
+wanaya, memoanaya@gmail.com
 
 ## License
 
